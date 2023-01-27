@@ -31,10 +31,13 @@ namespace HomeWork1
 
 
             string name, surName, city;
+
             Console.WriteLine("enter your name: ");
             name= Console.ReadLine();
+
             Console.WriteLine("enter your surname: ");
             surName = Console.ReadLine();
+
             Console.WriteLine("enter city ");
             city = Console.ReadLine();
 
