@@ -24,92 +24,61 @@ namespace HomeWorks
             */
 
 
-            #region Task
+            #region HomeWork1;
 
+            int a = 20;
+            int b = 50;
 
-
-            string value = Console.ReadLine();
-            int point = Convert.ToInt32(value);
-
-
-            if (point < 0 || point > 100)
-            {
-                Console.WriteLine("Duzgun bal daxil edilmeyib!");
-
-            }
-            else if (point < 20)
-            {
-                Console.WriteLine("Imtahandan kesildiniz");
-                Console.WriteLine("Dogrudur");
-            }
-            else if (point >= 20 && point < 40) 
-            {
-                Console.WriteLine("Neticeden kecdiniz");
-            }
-            else if ( point >=40  && point < 60)
-            {
-                Console.WriteLine("Netice Kafi");
-            }
-            else if (point >= 60 &&  point < 80)
-            {
-                Console.WriteLine("Netice Yaxsi");
-            }
-            else if (point >= 80 )
-            {
-                Console.WriteLine("Ela");
-            }
-
-            Console.ReadLine();
-
+            a = a + b;
+            b = a - b;
+            a = a - b;
 
             #endregion
 
-            Console.WriteLine("Etmek istediyniz emeliyyat sisteminin secin:");
-            Console.WriteLine("1.Toplama");
-            Console.WriteLine("2. Cixma");
-            Console.WriteLine("3.Bolme");
-            Console.WriteLine("4 Vurma");
+            #region HomeWork2
+            Console.WriteLine("1 ci reqemi daxil edin.");
+            int a2 = 5;
+            Console.WriteLine("2 ci reqemi daxil edin.");
+            int b2 = 6;
+            Console.WriteLine("3 cu reqemi daxil edin.");
+            int c2 = 7;
+
+
+
+            #endregion
+            //Console.Clear();
+            //#region HomeWork4
+
+            //Console.Write("Bool deyerini daxil edin");
+            //bool boBool = Convert.ToBoolean(Console.ReadLine());
+
+            //Console.WriteLine("String deyerini daxil edin");
+            //string toString = Convert.ToString(Console.ReadLine());
+
+            //Console.WriteLine("short deyerini daxil edin");
+            //short toShort = Convert.ToInt16(Console.ReadLine());
+
+            //Console.WriteLine("Long deyerini daxil edin");
+            //long toLong = Convert.ToInt64(Console.ReadLine());
+
+            //Console.WriteLine("int deyerini daxil edin");
+            //int toInt = Convert.ToInt32(Console.ReadLine());
+
+            //Console.WriteLine("Char deyerini daxil edin");
+            //char toChar = Convert.ToChar(Console.ReadLine());
+
+            //Console.WriteLine("Datetime daxil edin");
+            //DateTime toTime = Convert.ToDateTime(Console.ReadLine());
+
+            //Console.ReadLine();
 
             Console.Clear();
 
-            #region task 2
-            string country = "USA";
-
-            switch (country)
+            for (a = 0; a > 100; a += 2)
             {
-                case "Brazil":
-                    Console.WriteLine("Yalnisdir");
-                    break;
-
-                case "USA": 
-                    Console.WriteLine("Duzgundur");
-                    break;
-
-                default:
-                    Console.WriteLine("Hec biri uygun deyil");
-                    break;
-
+                Console.WriteLine(a);
             }
-
-
-
-            #endregion
-
-
-            #region task 2
-
-            int red = 1;
-             
-            
-            switch (red)
-            {
-                case 1:
-                    Console.WriteLine("Yanvar");
-                    break;
-            }
-
-            #endregion
-
+            Console.ReadLine();
         }
     }
 }
