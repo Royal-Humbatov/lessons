@@ -35,50 +35,61 @@ namespace HomeWorks
 
             #endregion
 
-            #region HomeWork2
-            Console.WriteLine("1 ci reqemi daxil edin.");
-            int a2 = 5;
-            Console.WriteLine("2 ci reqemi daxil edin.");
-            int b2 = 6;
-            Console.WriteLine("3 cu reqemi daxil edin.");
-            int c2 = 7;
+            int number = 0;
+            int number2 = 0;
+            int number3 = 0;
 
+
+            #region HomeWork2;
+            Console.WriteLine("1 ci reqemi daxil edin:");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("2 ci reqemi daxil, edin:");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("3 cu reqemi daxil edin:");
+            int num3 = Convert.ToInt32(Console.ReadLine());
+
+            number = num1 + num2 + num3;
+            number2 = num1 - num2 - num3;
+           
+
+            Console.WriteLine("Netice:" + num1 + "+" + num2 + "+" + num3 + "=" + number );
+            Console.WriteLine("Netice:" + num1 + "-" + num2 + "-" + num3+ "="+ number2);
+
+            Console.ReadLine();
 
 
             #endregion
-            //Console.Clear();
-            //#region HomeWork4
 
-            //Console.Write("Bool deyerini daxil edin");
-            //bool boBool = Convert.ToBoolean(Console.ReadLine());
+            #region HomeWork4;
 
-            //Console.WriteLine("String deyerini daxil edin");
-            //string toString = Convert.ToString(Console.ReadLine());
+            Console.Write("Bool deyerini daxil edin");
+            bool toBool = Convert.ToBoolean(Console.ReadLine());
 
-            //Console.WriteLine("short deyerini daxil edin");
-            //short toShort = Convert.ToInt16(Console.ReadLine());
+            Console.WriteLine("String deyerini daxil edin");
+            string toString = Convert.ToString(Console.ReadLine());
 
-            //Console.WriteLine("Long deyerini daxil edin");
-            //long toLong = Convert.ToInt64(Console.ReadLine());
+            Console.WriteLine("short deyerini daxil edin");
+            short toShort = Convert.ToInt16(Console.ReadLine());
 
-            //Console.WriteLine("int deyerini daxil edin");
-            //int toInt = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Long deyerini daxil edin"); 
+            long toLong = Convert.ToInt64(Console.ReadLine());
 
-            //Console.WriteLine("Char deyerini daxil edin");
-            //char toChar = Convert.ToChar(Console.ReadLine());
+            Console.WriteLine("int deyerini daxil edin");
+            int toInt = Convert.ToInt32(Console.ReadLine());
 
-            //Console.WriteLine("Datetime daxil edin");
-            //DateTime toTime = Convert.ToDateTime(Console.ReadLine());
+            Console.WriteLine("Char deyerini daxil edin");
+            char toChar = Convert.ToChar(Console.ReadLine());
 
-            //Console.ReadLine();
+            Console.WriteLine("Datetime daxil edin");
+            DateTime toTime = Convert.ToDateTime(Console.ReadLine());
+
+            Console.ReadLine();
 
             Console.Clear();
+            #endregion
 
-            for (a = 0; a > 100; a += 2)
-            {
-                Console.WriteLine(a);
-            }
-            Console.ReadLine();
+
+
         }
     }
 }
