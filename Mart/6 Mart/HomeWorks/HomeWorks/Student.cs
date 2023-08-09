@@ -14,8 +14,13 @@ namespace HomeWorks
 
         public override void ShowInfo()
         {
-           base.ShowInfo();
+            base.ShowInfo();
+            Console.WriteLine("Class name: " + ClassName);
+            Console.WriteLine("Teacher name: " + TeacherName);
+            
         }
+
+      
 
     }
 

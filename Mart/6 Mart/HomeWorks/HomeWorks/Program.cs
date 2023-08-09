@@ -22,6 +22,24 @@ namespace HomeWorks
              */
 
 
+            Person ps = new Person();
+            ps.ID = 1;
+            ps.Name = "Royal";
+            ps.Surname = "Humbetov";
+            ps.Age = 21;
+            ps.ShowInfo();
+
+
+            Student st = new Student();
+            st.ID = 2;
+            st.Name = "Xeyal";
+            st.Surname = "Humbetli";
+            st.Age = 17;
+            st.ClassName = "9A";
+            st.TeacherName = "Ehmed";
+
+            st.ShowInfo();
+            
         }
     }
 }
