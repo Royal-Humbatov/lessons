@@ -1,1 +1,0 @@
-Api ve Swagger islemleri.
